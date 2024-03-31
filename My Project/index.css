@@ -1,0 +1,822 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    background-color:rgb(223, 208, 208);
+    overflow: hidden;
+}
+.heading{
+    font-family:Verdana;
+    font-weight: bold;
+    color: rgb(153,0,0);
+    font-size:40px;
+    text-shadow: 4px 5px 5px rgb(107, 107, 107);
+    padding: 14px;
+    width: 27%;
+    animation:heading 2s ease-out forwards;
+}
+.greeting{
+    width: 52%;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(153,0,0);
+    text-shadow: 5px 5px 6px rgb(80, 79, 79);
+    font-family: cursive;
+    font-size:45px; 
+    font-weight:bold;
+}
+.getin{
+    width:15%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-shadow: 3px 3px 3px rgb(77, 89, 90);
+}
+.getin a{
+    text-decoration: none;
+    color:rgb(145, 3, 3);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.getin a:hover{
+    background-color:rgb(153,0,0);
+    color: wheat;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid wheat;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgb(100, 100, 100);
+}
+.one{
+    /* margin-bottom: 10px; */
+    animation:one 6s linear forwards;
+}
+@keyframes one{
+    0%{
+        transform: translateY(-500px);
+    }
+    20%{
+        transform: translateY(0px);
+    }
+    40%{
+        transform: rotateY(180deg);
+    }
+    60%{
+        transform: translateY(-10px);
+    }
+    80%{
+        transform: rotateY(180deg);
+    }
+    100%{
+        transform: translateX(-60px); 
+    }
+}
+.two{
+    animation:two 7s linear forwards;
+}
+@keyframes two{
+    0%{
+        transform: translateY(-400px);
+    }
+    20%{
+        transform: translateY(0px);
+    }
+    40%{
+        transform: rotateY(180deg);
+    }
+    60%{
+        transform: translateY(-10px);
+    }
+    80%{
+        transform: rotateY(180deg);
+    }
+    100%{
+        transform: translateX(-60px); 
+    }
+}
+.three{
+    animation:three 8s linear forwards;
+}
+@keyframes three{
+    0%{
+        transform: translateY(-300px);
+    }
+    20%{
+        transform: translateY(0px);
+    }
+    40%{
+        transform: rotateY(180deg);
+    }
+    60%{
+        transform: translateY(-10px);
+    }
+    80%{
+        transform: rotateY(180deg);
+    }
+    100%{
+        transform: translateX(-60px); 
+    }
+}
+.four{
+    animation: four 9s linear forwards;
+}
+@keyframes four{
+    0%{
+        transform: translateY(-200px);
+    }
+    20%{
+        transform: translateY(0px);
+    }
+    40%{
+        transform: rotateY(180deg);
+    }
+    60%{
+        transform: translateY(-10px);
+    }
+    80%{
+        transform: rotateY(180deg);
+    }
+    100%{
+        transform: translateX(-60px); 
+    }
+}
+.five{
+    animation:five 10s linear forwards;
+}
+@keyframes five{
+    0%{
+        transform: translateY(-150px);
+    }
+    20%{
+        transform: translateY(0px);
+    }
+    40%{
+        transform: rotateY(180deg);
+    }
+    60%{
+        transform: translateY(-10px);
+    }
+    80%{
+        transform: rotateY(180deg);
+    }
+    100%{
+        transform: translateX(-75px); 
+    }
+}
+.getinli1{
+    animation:getinli1 3s ease-out forwards;
+}
+@keyframes getinli1{
+    0%{
+        transform: translateX(600px);
+    }
+    25%{
+        transform: translateX(-100px);
+    }
+    50%{
+        transform: translateX(100px);
+    }
+    75%{
+        transform: translateX(-20px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.getinli2{
+    animation:getinli2 5s ease-out forwards;
+}
+@keyframes getinli2{
+    0%{
+        transform: translateX(600px);
+    }
+    25%{
+        transform: translateX(45px);
+    }
+    50%{
+        transform: translateX(100px);
+    }
+    75%{
+        transform: translateX(-40px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+main{
+    height: 520px;
+    width: 100%;
+    background-image: url("Images/backgroundimagepro.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main h2{
+    font-size: xxx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: wheat;
+    text-shadow: 4px 5px 3px grey;
+}
+main p{
+    color: wheat;
+    font-size:x-large;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 3px 3px 3px rgb(126, 94, 94);
+}
+.main1{
+    width: 450px;
+    margin-left: 10%;
+}
+.main1 a{
+    text-decoration: none;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: wheat;
+    border: 0px;
+    background-color: rgb(141, 2, 2);
+    border-radius: 5px;
+    padding: 5px 160px;
+    box-shadow: 7px 7px 3px rgb(66, 66, 66);
+}
+.main1 a:hover{
+    color: rgb(141, 2, 2);
+    background-color: wheat;
+    border: 2px solid rgb(141, 2, 2);
+    box-shadow: 0px 0px 0px;
+    text-shadow: 2px 3px 3px rgb(63, 63, 63);
+}
+footer{
+    height: 130px;
+    background-color: rgb(156, 145, 145);
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+.copyright p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer{
+    animation: footer 10s linear forwards;
+}
+@keyframes footer{
+    from{
+        transform: translateY(300px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+@media screen and (min-width:768px) and (max-width:1100px){
+    header{
+        height: auto;
+        display: block;
+    }
+    .heading{
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 0;
+        padding: 0;
+    }
+    .greeting{
+        width: 100%;
+    }
+    .one{
+        animation:one 6s linear forwards;
+    }
+    @keyframes one{
+        0%{
+            transform: translateY(-500px);
+        }
+        20%{
+            transform: translateY(0px);
+        }
+        40%{
+            transform: rotateY(180deg);
+        }
+        60%{
+            transform: translateY(-10px);
+        }
+        80%{
+            transform: rotateY(180deg);
+        }
+        100%{
+            transform: translateX(60px); 
+        }
+    }
+    .two{
+        animation:two 7s linear forwards;
+    }
+    @keyframes two{
+        0%{
+            transform: translateY(-400px);
+        }
+        20%{
+            transform: translateY(0px);
+        }
+        40%{
+            transform: rotateY(180deg);
+        }
+        60%{
+            transform: translateY(-10px);
+        }
+        80%{
+            transform: rotateY(180deg);
+        }
+        100%{
+            transform: translateX(10px); 
+        }
+    }
+    .three{
+        animation:three 8s linear forwards;
+    }
+    @keyframes three{
+        0%{
+            transform: translateY(-300px);
+        }
+        20%{
+            transform: translateY(0px);
+        }
+        40%{
+            transform: rotateY(180deg);
+        }
+        60%{
+            transform: translateY(-10px);
+        }
+        80%{
+            transform: rotateY(180deg);
+        }
+        100%{
+            transform: translateX(-30px); 
+        }
+    }
+    .four{
+        animation: four 9s linear forwards;
+    }
+    @keyframes four{
+        0%{
+            transform: translateY(-200px);
+        }
+        20%{
+            transform: translateY(0px);
+        }
+        40%{
+            transform: rotateY(180deg);
+        }
+        60%{
+            transform: translateY(-10px);
+        }
+        80%{
+            transform: rotateY(180deg);
+        }
+        100%{
+            transform: translateX(-70px); 
+        }
+    }
+    .five{
+        animation:five 10s linear forwards;
+    }
+    @keyframes five{
+        0%{
+            transform: translateY(-150px);
+        }
+        20%{
+            transform: translateY(0px);
+        }
+        40%{
+            transform: rotateY(180deg);
+        }
+        60%{
+            transform: translateY(-10px);
+        }
+        80%{
+            transform: rotateY(180deg);
+        }
+        100%{
+            transform: translateX(-115px); 
+        }
+    }
+    .greeting p{
+        font-size: 40px;
+    }
+    .getin{
+        font-size: medium;
+        font-weight: normal;
+        width: 100%;
+        text-align: center;
+    }
+    .getin .getinli1{
+        margin-top: 5px;
+    }
+    .getin .getinli2{
+        margin-top: 8px;
+    }
+    .getin a:hover{
+        padding: 2px;
+    }
+    main{
+        height: 350px;
+        background-image: url(Logo/image15.jpg);
+    }
+    main h2{
+        color: rgb(13, 13, 73);
+    }
+    main p{
+        color: black;
+    }
+}
+@media screen and (min-width:576px) and (max-width:767px){
+    header{
+        height: auto;
+        display: block;
+    }
+    .heading{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+    .greeting p{
+        font-size: 30px;
+    }
+    .getin{
+        font-size: medium;
+        font-weight: normal;
+        width: 100%;
+        text-align: center;
+    }
+    .one{
+        animation:one 6s linear forwards;
+    }
+    @keyframes one{
+        0%{
+            transform: translateY(-500px);
+        }
+        20%{
+            transform: translateY(0px);
+        }
+        40%{
+            transform: rotateY(180deg);
+        }
+        60%{
+            transform: translateX(100px);
+        }
+        80%{
+            transform: rotateY(180deg);
+        }
+        100%{
+            transform: translateX(130px); 
+        }
+    }
+    .two{
+        animation:two 7s linear forwards;
+    }
+    @keyframes two{
+        0%{
+            transform: translateY(-400px);
+        }
+        20%{
+            transform: translateY(0px);
+        }
+        40%{
+            transform: rotateY(180deg);
+        }
+        60%{
+            transform: translateX(50px);
+        }
+        80%{
+            transform: rotateY(180deg);
+        }
+        100%{
+            transform: translateX(140px); 
+        }
+    }
+    .three{
+        animation:three 8s linear forwards;
+    }
+    @keyframes three{
+        0%{
+            transform: translateY(-300px);
+        }
+        20%{
+            transform: translateY(0px);
+        }
+        40%{
+            transform: rotateY(180deg);
+        }
+        60%{
+            transform: translatex(100px);
+        }
+        80%{
+            transform: rotateY(180deg);
+        }
+        100%{
+            transform: translateX(150px); 
+        }
+    }
+    .four{
+        animation: four 9s linear forwards;
+    }
+    @keyframes four{
+        0%{
+            transform: translateY(-200px);
+        }
+        20%{
+            transform: translateY(0px);
+        }
+        40%{
+            transform: rotateY(180deg);
+        }
+        60%{
+            transform: translateX(100px);
+        }
+        80%{
+            transform: rotateY(180deg);
+        }
+        100%{
+            transform: translateX(160px); 
+        }
+    }
+    .five{
+        animation:five 10s linear forwards;
+    }
+    @keyframes five{
+        0%{
+            transform: translateY(-150px);
+        }
+        20%{
+            transform: translateY(0px);
+        }
+        40%{
+            transform: rotateY(180deg);
+        }
+        60%{
+            transform: translateX(100px);
+        }
+        80%{
+            transform: rotateY(180deg);
+        }
+        100%{
+            transform: translateX(160px); 
+        }
+    }
+    .getin .getinli1{
+        margin-top: 5px;
+    }
+    .getin .getinli2{
+        margin-top: 8px;
+    }
+    .getin a:hover{
+        padding: 2px;
+    }
+    main{
+        height: 350px;
+        background-image: url(Logo/image16.jpg);
+    }
+    main h2{
+        color:rgb(13, 13, 73);
+    }
+}
+@media screen and (max-width:575px) {
+    header{
+        height: auto;
+        display: block;
+    }
+    .heading{
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .greeting{
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
+    .greeting p{
+        font-size: 25px;
+    }
+    .one{
+        animation:one 6s linear forwards;
+    }
+    @keyframes one{
+        0%{
+            transform: translateY(-500px);
+        }
+        20%{
+            transform: translateY(0px);
+        }
+        40%{
+            transform: rotateY(180deg);
+        }
+        60%{
+            transform: translateX(100px);
+        }
+        100%{
+            transform: translateX(100px); 
+        }
+    }
+    .two{
+        animation:two 7s linear forwards;
+    }
+    @keyframes two{
+        0%{
+            transform: translateY(-400px);
+        }
+        20%{
+            transform: translateY(0px);
+        }
+        40%{
+            transform: rotateY(180deg);
+        }
+        60%{
+            transform: translateX(50px);
+        }
+        100%{
+            transform: translateX(110px); 
+        }
+    }
+    .three{
+        animation:three 8s linear forwards;
+    }
+    @keyframes three{
+        0%{
+            transform: translateY(-300px);
+        }
+        20%{
+            transform: translateY(0px);
+        }
+        40%{
+            transform: rotateY(180deg);
+        }
+        60%{
+            transform: translatex(100px);
+        }
+        100%{
+            transform: translateX(120px); 
+        }
+    }
+    .four{
+        animation: four 9s linear forwards;
+    }
+    @keyframes four{
+        0%{
+            transform: translateY(-200px);
+        }
+        20%{
+            transform: translateY(0px);
+        }
+        40%{
+            transform: rotateY(180deg);
+        }
+        60%{
+            transform: translateX(100px);
+        }
+        100%{
+            transform: translateX(130px); 
+        }
+    }
+    .five{
+        animation:five 10s linear forwards;
+    }
+    @keyframes five{
+        0%{
+            transform: translateY(-150px);
+        }
+        20%{
+            transform: translateY(0px);
+        }
+        40%{
+            transform: rotateY(180deg);
+        }
+        60%{
+            transform: translateX(100px);
+        }
+        100%{
+            transform: translateX(140px); 
+        }
+    }
+    .getin{
+        width: 100%;
+        text-align: center;
+    }
+    .getinli1, .getinli2{
+        text-align: center;
+        font-size: 15px;
+    }
+    .getinli1 a:hover{
+        padding: 2px;
+    }
+    .getinli2 a:hover{
+        padding: 2px;
+    }
+    main{
+        height: 350px;
+        background-image: url(Images/image3.jpeg);
+    }
+    .main1 h2{
+        font-size: 40px;
+        color: rgb(13, 13, 73);
+    }
+    .main1 p{
+        font-size: 40px;
+        color: black;
+    }
+    .main1 a{
+        font-size: 30px;
+        padding: 2px 80px;
+    }
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 90px;
+    background-image: url("Images/2008050.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* background-attachment: fixed; */
+}
+.detnewuser h1{
+    text-align:center;
+}
+.detnewuser{
+    color: wheat;
+    opacity: 0.8;
+}
+.logins h1{
+    text-align: center;
+}
+.logins{
+    color: rgb(68, 1, 107);
+}
+.detnewuser #register{
+    margin-left: 150px;   
+}
+.logins #login{
+    margin-left: 100px;
+    
+}
+
+.six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen{
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+#pass1{
+    margin-left: 80px;
+}
+#email1{
+    margin-left: 90px;
+}
+#fname{
+    margin-left: 64px;
+}
+#lname{
+    margin-left: 66px;
+}
+.logins #uname{
+    border: 1px dotted black;
+}
+.twelve #register, .fifteen #login{
+    padding: 7px;
+    border-radius: 50px;
+    border: 0.5px solid black;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+.fifteen button:hover{
+    background-color: rgb(96, 4, 114);
+    color: white;
+}
+.fifteen a:hover{
+    color: white;
+}
+.fifteen a{
+    text-decoration: none;
+    color: black;
+}
